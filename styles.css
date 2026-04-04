@@ -91,7 +91,7 @@ section .container { position: relative; z-index: 2; }
 .hero-subtitle { font-size: 1rem; color: var(--muted); line-height: 1.85; margin-bottom: 2.2rem; max-width: 500px; }
 .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 2.8rem; }
 
-/* Hero Stats â€” the centrepiece */
+/* Hero Stats — the centrepiece */
 .hero-stats { display: flex; align-items: stretch; gap: 0; background: var(--white); border: 1px solid rgba(30,138,150,0.15); border-radius: 16px; overflow: hidden; box-shadow: 0 4px 24px rgba(18,96,106,0.10); }
 .stat-card { flex: 1; padding: 1.5rem 1.25rem; text-align: center; }
 .stat-divider { width: 1px; background: rgba(30,138,150,0.12); flex-shrink: 0; }
@@ -99,7 +99,7 @@ section .container { position: relative; z-index: 2; }
 .stat-num span { font-size: 1.8rem; }
 .stat-label { font-size: 0.72rem; color: var(--muted); letter-spacing: 0.05em; margin-top: 0.3rem; line-height: 1.35; text-transform: uppercase; }
 
-/* Hero right â€” logo display */
+/* Hero right — logo display */
 .hero-logo-wrap { display: flex; flex-direction: column; align-items: center; gap: 1.5rem; }
 .hero-logo-img-plain { width: 280px; height: 280px; object-fit: contain; animation: float 5s ease-in-out infinite; filter: drop-shadow(0 8px 32px rgba(18,96,106,0.18)); }
 @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
