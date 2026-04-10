@@ -1,0 +1,26 @@
+/* ===== FONT CONFIGURATION ===== */
+/* Optimize font loading with preconnect links (add these to HTML <head>) */
+/* <link rel="preconnect" href="https://fonts.googleapis.com"/> */
+/* <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/> */
+
+/* Google Fonts Import - Comfortaa (primary) & Nunito (secondary) */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Nunito:wght@400;500;600;700&display=swap');
+
+/* Font Variables - Update these to change fonts site-wide */
+:root {
+  /* Primary font: Comfortaa - used for headings, labels, and emphasis */
+  --font-primary: 'Comfortaa', sans-serif;
+  
+  /* Secondary font: Nunito - used for body text, buttons, and general content */
+  --font-secondary: 'Nunito', sans-serif;
+}
+
+/* ===== FONT USAGE GUIDE ===== */
+/* 
+  Headings (h1-h4): var(--font-primary)
+  Body Text: var(--font-secondary)
+  Buttons: var(--font-secondary)
+  Special Elements: Use as needed
+  
+  To change fonts globally, update --font-primary and --font-secondary above.
+*/
