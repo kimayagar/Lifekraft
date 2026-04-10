@@ -62,7 +62,7 @@ section .container { position: relative; z-index: 2; }
 /* ===== NAV ===== */
 #navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(242,251,252,0.93); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid rgba(30,138,150,0.12); transition: box-shadow var(--transition); }
 #navbar.scrolled { box-shadow: 0 2px 20px rgba(18,96,106,0.10); }
-.nav-inner { display: flex; align-items: center; justify-content: space-between; height: 70px; }
+.nav-inner { display: flex; align-items: center; justify-content: space-between; height: 95px; }
 .nav-logo { display: flex; align-items: center; gap: 0.65rem; }
 .nav-logo-img { width: 82px; height: 82px; object-fit: contain; }
 .nav-logo-text { display: flex; flex-direction: column; line-height: 1.2; }
