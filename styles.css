@@ -146,8 +146,21 @@ section .container { position: relative; z-index: 2; }
 .card-back { background: var(--teal-dark); border: 1px solid var(--teal-dark); transform: rotateY(180deg); flex-direction: column; gap: 0.5rem; text-align: center; overflow: hidden; padding: 0.75rem; }
 .card-back .back-icon { font-size: 1.2rem; flex-shrink: 0;   margin-bottom: 0.2rem; }
 .card-back .back-name { font-family: var(--font-primary); font-size: 0.95rem; color: var(--teal-lt); font-weight: 500; white-space: normal;  text-align: center; overflow: hidden; text-overflow: ellipsis; }
-.card-back .back-text { font-size: 0.75rem;color: rgba(255,255,255,0.82);line-height: 1.5;  display: block; overflow: visible; -webkit-line-clamp: unset;-webkit-box-orient: unset; white-space: normal; word-break: break-word; }
+.card-back .back-text {
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.82);
+  line-height: 1.5;
 
+  display: block;
+
+  /* important fixes */
+  overflow: visible;
+  white-space: normal;
+  word-break: break-word;
+
+  /* reset clamp properly */
+  -webkit-line-clamp: unset;
+}
 /* ===== SERVICES ===== */
 #services { background: var(--white); overflow: hidden; }
 .services-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; margin-top: 3rem; }
