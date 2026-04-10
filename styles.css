@@ -69,7 +69,7 @@ section .container { position: relative; z-index: 2; }
 .nav-brand { font-family: var(--font-primary); font-size: 1.2rem; font-weight: 600; color: var(--dark); }
 .nav-tagline { font-size: 0.62rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--teal); }
 .nav-links { display: flex; align-items: center; gap: 1.8rem; }
-.nav-links a { font-size: 0.84rem; font-weight: 500; letter-spacing: 0.04em; color: var(--text); position: relative; transition: color var(--transition); }
+.nav-links a { font-size: 0.95rem; font-weight: 500; letter-spacing: 0.04em; color: var(--text); position: relative; transition: color var(--transition); }
 .nav-links a::after { content: ''; position: absolute; bottom: -3px; left: 0; right: 0; height: 1.5px; background: var(--teal); transform: scaleX(0); transition: transform var(--transition); transform-origin: left; }
 .nav-links a:hover { color: var(--teal); }
 .nav-links a:hover::after { transform: scaleX(1); }
@@ -144,10 +144,10 @@ section .container { position: relative; z-index: 2; }
 .condition-icon { width: 36px; height: 36px; flex-shrink: 0; background: var(--teal-pale); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; }
 .condition-name { font-size: 0.85rem; font-weight: 500; color: var(--dark); text-align: left; white-space: normal; word-wrap: break-word; }
 .card-back { background: var(--teal-dark); border: 1px solid var(--teal-dark); transform: rotateY(180deg); flex-direction: column; gap: 0.5rem; text-align: center; overflow: hidden; padding: 0.75rem; }
-.card-back .back-icon { font-size: 1.2rem; flex-shrink: 0;   margin-bottom: 0.2rem; }
-.card-back .back-name { font-family: var(--font-primary); font-size: 0.95rem; color: var(--teal-lt); font-weight: 500; white-space: normal;  text-align: center; overflow: hidden; text-overflow: ellipsis; }
+.card-back .back-icon { font-size: 0.8rem; flex-shrink: 0;   margin-bottom: 0.1rem; }
+.card-back .back-name { font-family: var(--font-primary); font-size: 0.85rem; color: var(--teal-lt); font-weight: 500; white-space: normal;  text-align: center; overflow: hidden; text-overflow: ellipsis; }
 .card-back .back-text {
-  font-size: 0.75rem;
+  font-size: 0.60rem;
   color: rgba(255,255,255,0.82);
   line-height: 1.5;
 
